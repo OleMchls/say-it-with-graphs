@@ -1,4 +1,4 @@
-# SayItWithGraphs
+# SayItWithGraphs [![Build Status](https://travis-ci.org/nesQuick/say-it-with-graphs.svg?branch=master)](https://travis-ci.org/nesQuick/say-it-with-graphs)
 
 TODO: Write a gem description
 
