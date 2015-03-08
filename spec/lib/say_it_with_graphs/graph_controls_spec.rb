@@ -21,4 +21,11 @@ RSpec.describe SayItWithGraphs::GraphControls do
       expect(subject.frame {|f|}.length).to be 2
     end
   end
+
+  describe '#rnd_line' do
+    it 'should return random 6 character string to be used as line number' do
+      allow(SecureRandom).to receive(:hex).and_return('ba11ade')
+      expect(subject.rnd_line).to eq 'ba11ad'
+    end
+  end
 end

@@ -9,5 +9,9 @@ module SayItWithGraphs
       yield frame
       @frames << frame
     end
+
+    def rnd_line
+      SecureRandom.hex[0..5]
+    end
   end
 end
