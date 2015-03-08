@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'say_it_with_graphs'
+
+something = ARGV[0] || ''
+
+# poormans validation :D
+fail 'gimme something to say' if something == ''
+
+p "making '#{something}' with <3 and graphs"
+SayItWithGraphs::Brush.new.paint! SayItWithGraphs::Framer.new.frames(something)
