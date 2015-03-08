@@ -7,11 +7,11 @@ module SayItWithGraphs
 
     # debug_output $stdout
 
-    def self.submit value: value, source: source
+    def self.submit value: value, source: source, name: 'say-it-with-graphs'
       auth = { username: ENV['LIBRATO_USER'], password: ENV['LIBRATO_TOKEN'] }
       metric = {
         gauges: [{
-          name: 'say-it-with-graphs',
+          name: name,
           value: value,
           source: source
         }]
