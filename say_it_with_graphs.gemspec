@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SayItWithGraphs::VERSION
   spec.authors       = ["Ole Michaelis"]
   spec.email         = ["Ole.Michaelis@googlemail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Make more of your graphs. Write with them!}
+  spec.description   = %q{say-it-with-graphs let you actually write into a place where usually the computer tells you something.}
   spec.homepage      = "https://github.com/nesQuick/say-it-with-graphs"
   spec.license       = "MIT"
 
