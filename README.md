@@ -40,7 +40,7 @@ Getting started in 5 minutes.
 $ gem 'say_it_with_graphs'
 $ export LIBRATO_USER='<your user email here>'
 $ export LIBRATO_TOKEN='<your api token here>'
-$ say-it-with-graphs "I <3 GRAPHS\!"
+$ say-it-with-graphs "I <3 GRAPHS!"
 "making 'I <3 GRAPHS!' with <3 and graphs"
 "Painting to say-it-with-graphs-82 ... ETA: 29 minutes"
 "=> https://metrics.librato.com/metrics/say-it-with-graphs-82"
