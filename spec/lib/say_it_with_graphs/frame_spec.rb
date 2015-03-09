@@ -24,7 +24,7 @@ RSpec.describe SayItWithGraphs::Frame do
 
   describe '#complete' do
     it 'should return all lines in frame' do
-      lines = 3.times { subject.line }
+      3.times { subject.line }
       expect(subject.complete.length).to be 3
     end
     it 'should freeze the frame' do
