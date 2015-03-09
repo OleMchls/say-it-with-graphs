@@ -8,6 +8,7 @@ module SayItWithGraphs
     # debug_output $stdout
 
     def self.submit value: value, source: source, name: 'say-it-with-graphs'
+      fail 'please provide valid credentials' unless ENV['LIBRATO_USER'] && ENV['LIBRATO_TOKEN']
       auth = { username: ENV['LIBRATO_USER'], password: ENV['LIBRATO_TOKEN'] }
       metric = {
         gauges: [{
