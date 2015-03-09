@@ -6,6 +6,7 @@ require 'say_it_with_graphs/version'
 Gem::Specification.new do |spec|
   spec.name          = "say_it_with_graphs"
   spec.version       = SayItWithGraphs::VERSION
+  spec.version       = "#{spec.version}-alpha-#{ENV['TRAVIS_BUILD_NUMBER']}" if ENV['TRAVIS']
   spec.authors       = ["Ole Michaelis"]
   spec.email         = ["Ole.Michaelis@googlemail.com"]
   spec.summary       = %q{Make more of your graphs. Write with them!}
