@@ -13,4 +13,5 @@ deploy:
     secure: LcWSsGG1GhvdlDz0A9x02EcszoaS3bT7666XlN0s2bH713AWHNMIdK0GKQivpHdDFOzg6bj/UwSikWGaF/F01B8pnEmVxQoMLqudrjBIbnMpkZVcXNarP3oLOuPI+QdF6VEX4v9mrtjUd1nTTitMGn3DDk3gDhRRYbPIg5/UhkA=
   gem: say_it_with_graphs
   on:
+    tags: true
     repo: nesQuick/say-it-with-graphs
